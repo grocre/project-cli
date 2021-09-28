@@ -19,7 +19,7 @@ else:
 
 os.mkdir(path) #criação da pasta
 
-os.chdir(path)
-os.system("git init")
+os.chdir(path) #muda o diretòrio
+os.system("git init") #executa o git init
 
 print("Projeto {} criado em {}".format(args.projectName, path))
